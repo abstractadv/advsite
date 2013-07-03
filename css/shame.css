@@ -1,0 +1,28 @@
+/*
+ *	Shame CSS
+ */
+
+.unit-container {
+	text-align: justify;
+	font-size: 0.1px /* Hide whitespace */
+}
+
+.unit {
+	display: inline-block;
+}
+
+.unit__break {
+	width: 100%;
+	height: 0;
+}
+
+.unit-container:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+
+.img__full {
+	width: 100%;
+}
