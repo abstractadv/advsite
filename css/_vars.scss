@@ -59,8 +59,8 @@ $use-greybox:       false;
  * Place any variables that should override inuit.css’ defaults here.
  */
 
-
-
+$base-font-family:  "open Sans"!default;
+$responsive-extra:  true!default;
 
 
 /*------------------------------------*\
@@ -69,3 +69,5 @@ $use-greybox:       false;
 /**
  * Place any of your own variables that sit on top of inuit.css here.
  */
+
+ html {background: #fcfcfc}
