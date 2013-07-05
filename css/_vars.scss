@@ -59,9 +59,13 @@ $use-greybox:       false;
  * Place any variables that should override inuit.css’ defaults here.
  */
 
-$base-font-family:  "open Sans"!default;
+$base-font-family:  "Open Sans"!default;
 $responsive-extra:  true!default;
 
+// breakpoint
+$lap-start:         481px!default;
+$desk-start:        1000px!default;
+$desk-wide-start:   1200px!default;
 
 /*------------------------------------*\
     $CUSTOM
@@ -71,3 +75,7 @@ $responsive-extra:  true!default;
  */
 
  html {background: #fcfcfc}
+
+ nav a {
+ 	text-decoration: none;
+ }
